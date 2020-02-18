@@ -1,0 +1,31 @@
+# Build artifacts
+build/**
+.gradle/**
+server/build/**
+server/.gradle/**
+server/out/**
+client/build/**
+client/.gradle/**
+server/out/**
+client/out/**
+
+# Not strictly necessary, however, *.jar files are often ignored and this one is required by the Gradle wrapper.
+!gradle/wrapper/gradle-wrapper.jar
+!server/gradle/wrapper/gradle-wrapper.jar
+!client/gradle/wrapper/gradle-wrapper.jar
+
+# Editor settings
+.idea/**
+client/.idea/**
+server/.idea/**
+
+.DS_Store
+
+client/codemr/
+server/codemr/template/html/main_report/htmlx/modeldata/defaultclassmetrics.js
+server/codemr/template/html/main_report/htmlx/modeldata/overview_metric_data.js
+server/codemr/template/html/main_report/htmlx/modeldata/packagedependency.js
+server/codemr/template/html/main_report/htmlx/modeldata/summary_data.js
+server/codemr/template/html/main_report/htmlx/modeldata/sunburst_data.js
+server/codemr/template/html/main_report/htmlx/modeldata/table_data.js
+server/codemr/
